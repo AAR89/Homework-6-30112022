@@ -10,9 +10,7 @@ void InputCoefficients()
 {
     for (int i = 0; i < graph.GetLength(0); i++)
     {
-        Console.Write(
-            $"Введите коэффициенты для {i + 1} уравнения (y = k{i + 1} * x + b{i + 1})\n"
-        );
+        Console.Write($"Введите коэффициенты для {i + 1} уравнения (y = k{i + 1} * x + b{i + 1})\n"        );
         for (int j = 0; j < graph.GetLength(1); j++)
         {
             if (j == 0)
