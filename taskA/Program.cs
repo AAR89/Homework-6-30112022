@@ -32,9 +32,8 @@ Console.Clear();
 Console.Write("Введите число: "); // вариант с вводом с клавиатуры
 string? str = Console.ReadLine();
 int count = str.Length;
-void stringLength (int count)
+void stringLength(int count)
 {
-    
     for (int i = 0; i < str.Length; i++)
     {
         count += 1;
